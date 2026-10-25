@@ -1,0 +1,22 @@
+generated: '2026-10-25'
+method: none
+source:
+- https://zapier.com/apps/usetrace-com/integrations
+- https://zapier.com/apps/usetrace/integrations
+- https://zapier.com/apps/shoppr/integrations
+- https://n8n.io/integrations/usetrace-com/
+- https://n8n.io/integrations/usetrace/
+- https://composio.dev/toolkits/usetrace-com
+- https://monid.ai/tools/usetrace-com
+checked:
+- https://composio.dev/toolkits/usetrace-com
+- https://monid.ai/tools/usetrace-com
+- https://n8n.io/integrations/usetrace-com/
+- https://n8n.io/integrations/usetrace/
+- https://zapier.com/apps/shoppr/integrations
+- https://zapier.com/apps/usetrace-com/integrations
+- https://zapier.com/apps/usetrace/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

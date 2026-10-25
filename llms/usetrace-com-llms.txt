@@ -1,0 +1,96 @@
+# Usetrace Help Center
+
+> Help center for Usetrace
+
+## Beginner
+
+- [\#0 Overview of Usetrace](https://docs.usetrace.com/en/articles/1278514-0-overview-of-usetrace.md): Overview of what is Usetrace and how to get started.
+- [\#1 Quickstart](https://docs.usetrace.com/en/articles/1278595-1-quickstart.md): What are the basic views in Usetrace
+- [\#2 First Trace \(Login form\)](https://docs.usetrace.com/en/articles/1278615-2-first-trace-login-form.md): How to create your first test - the Login Form test
+- [\#3 Testing Registration](https://docs.usetrace.com/en/articles/1278600-3-testing-registration.md): How to test registration into a web app with email verification
+- [\#4 Editing Trace](https://docs.usetrace.com/en/articles/1278599-4-editing-trace.md): How to make changes to traces
+- [\#5 Reporting](https://docs.usetrace.com/en/articles/1278605-5-reporting.md): How to quickly set up reporting for your test results
+- [Record and play steps in Usetrace](https://docs.usetrace.com/en/articles/3342518-record-and-play-steps-in-usetrace.md)
+- [Basics - Which features to test? How to test a web shop?](https://docs.usetrace.com/en/articles/1278614-basics-which-features-to-test-how-to-test-a-web-shop.md): What should you test first and how to test an entire web application such as a web shop?
+- [Running test traces automatically](https://docs.usetrace.com/en/articles/1278602-running-test-traces-automatically.md): How to set up test automation
+
+## Frequently Asked Questions \(FAQ\)
+
+- [FAQ - Frequently Asked Questions](https://docs.usetrace.com/en/articles/1278620-faq-frequently-asked-questions.md): Here is some answers to the most frequently asked questions
+- [Which browsers can run Usetrace web app?](https://docs.usetrace.com/en/articles/1278610-which-browsers-can-run-usetrace-web-app.md): What are the system requirements for Usetrace
+- [How to give feedback?](https://docs.usetrace.com/en/articles/1278616-how-to-give-feedback.md): How can I give feedback to Usetrace and ask for new features?
+
+## Editor
+
+- [Variables in Usetrace](https://docs.usetrace.com/en/articles/4000081-variables-in-usetrace.md): Example on the variable step
+- [Testing your custom files](https://docs.usetrace.com/en/articles/3342486-testing-your-custom-files.md): How to get your own files to Usetrace.
+- [JavaScript examples](https://docs.usetrace.com/en/articles/1287957-javascript-examples.md): Some JavaScript examples to help you understand how stuff works
+- [Finding a specific page element \(Locators\)](https://docs.usetrace.com/en/articles/1278585-finding-a-specific-page-element-locators.md): Locators are used to find a specific element on a web page. One element can have several locators.
+- [Checking for visible elements on the page \(Check\)](https://docs.usetrace.com/en/articles/1278584-checking-for-visible-elements-on-the-page-check.md): Check feature allows you to check for visible elements on page such as texts, images, etc.
+- [How to avoid repeating tasks in test cases \(Routines\)](https://docs.usetrace.com/en/articles/1278609-how-to-avoid-repeating-tasks-in-test-cases-routines.md): Re-usable trace modules/patterns/routines are used for avoiding repetitive tasks in test creation by concatenating traces
+- [Adding delay and synchronization \(Wait/delay\)](https://docs.usetrace.com/en/articles/1278586-adding-delay-and-synchronization-wait-delay.md): How to delay you test for the right amount if your web app requires it
+- [Testing with different screen resolutions \(Responsive testing\)](https://docs.usetrace.com/en/articles/1278597-testing-with-different-screen-resolutions-responsive-testing.md): How to handle different screen sizes / responsive web design in test cases
+- [Changing values in routines \(Parameters\)](https://docs.usetrace.com/en/articles/1278607-changing-values-in-routines-parameters.md): How to run routines/modules with changing values, e.g. login with different user names
+- [Step type reference](https://docs.usetrace.com/en/articles/1278589-step-type-reference.md): Reference table and descriptions of all different step types
+- [Run steps Conditionally \(If-conditional\)](https://docs.usetrace.com/en/articles/1278587-run-steps-conditionally-if-conditional.md): What step to run next IF conditional is True
+- [Starting a trace from a specific URL \(Custom base URL\)](https://docs.usetrace.com/en/articles/1278601-starting-a-trace-from-a-specific-url-custom-base-url.md): How to start a trace from a different URL than your base URL
+- [JavaScript Step](https://docs.usetrace.com/en/articles/9291630-javascript-step.md)
+- [API step](https://docs.usetrace.com/en/articles/10295086-api-step.md): API step allows testers to validate data exchanged through API endpoints using assertions.
+- [View network tab activity while trace runs on the editor](https://docs.usetrace.com/en/articles/10455302-view-network-tab-activity-while-trace-runs-on-the-editor.md): This article contains an instruction on how to view Chrome network tab activity using developer tools while running a trace on the editor
+- [Inbox Mail System Usage](https://docs.usetrace.com/en/articles/12595178-inbox-mail-system-usage.md): The Inbox Mail System feature allows users to automatically access and interact with test emails generated during automated trace runs or manual testing. 
+- [Data-Driven Testing](https://docs.usetrace.com/en/articles/13941511-data-driven-testing.md): Data-Driven Testing allows you to execute a single trace multiple times using different input data.
+- [Network Logs Tab](https://docs.usetrace.com/en/articles/14502466-network-logs-tab.md): The Network Logs tab provides a detailed, tabular view of all network requests executed during a trace run. It helps users analyze request behavior, performance, and outcomes for debugging and moni...
+- [Console Logs Tab](https://docs.usetrace.com/en/articles/14503095-console-logs-tab.md): The Console Logs tab provides a structured view of all console messages generated during a trace run. It helps users monitor application behavior, debug issues, and inspect logs produced by the bro...
+
+## Support
+
+- [Virtual browser support](https://docs.usetrace.com/en/articles/1279027-virtual-browser-support.md): What virtual browsers you can test with
+- [How to test localhost using a tunneled connection](https://docs.usetrace.com/en/articles/1278617-how-to-test-localhost-using-a-tunneled-connection.md): How to test your local environment \(localhost\) using NGrok
+- [Secure connection \(https\)](https://docs.usetrace.com/en/articles/1278612-secure-connection-https.md): How to set up a secure connection between Usetrace and your network
+
+## Reporting
+
+- [Flowdock reporting](https://docs.usetrace.com/en/articles/1278591-flowdock-reporting.md): Setting up Flowdock reporting
+- [Email reporting](https://docs.usetrace.com/en/articles/1278588-email-reporting.md): Setting up email reporting
+- [HipChat reporting](https://docs.usetrace.com/en/articles/1278592-hipchat-reporting.md): Setting up HipChat reporting
+- [Slack reporting](https://docs.usetrace.com/en/articles/1278594-slack-reporting.md): Setting up Slack reporting
+- [Weekly Email Reports](https://docs.usetrace.com/en/articles/11055708-weekly-email-reports.md)
+- [JIRA Reporting](https://docs.usetrace.com/en/articles/12867724-jira-reporting.md)
+
+## Projects and collaboration
+
+- [Sharing your project and traces with any user](https://docs.usetrace.com/en/articles/1278619-sharing-your-project-and-traces-with-any-user.md): Project and trace sharing via URL for easier collaboration
+- [How to keep project tests organized \(Tagging traces\)](https://docs.usetrace.com/en/articles/1278606-how-to-keep-project-tests-organized-tagging-traces.md): How to keep your tests well-organized in your project with tags for example \#onboarding
+- [Managing projects](https://docs.usetrace.com/en/articles/1278608-managing-projects.md): Creating and deleting projects, reusing assets, giving access rights to team members \(invite members\)
+- [Collaboration](https://docs.usetrace.com/en/articles/13925618-collaboration.md): Trace collaboration with lightweight version control across users and projects
+
+## API and Continuous Integration \(CI\)
+
+- [Continuous integration with Jenkins](https://docs.usetrace.com/en/articles/1278613-continuous-integration-with-jenkins.md): Jenkins CI settings for triggers that run your tests automatically once you complete a software build
+- [Webhooks](https://docs.usetrace.com/en/articles/6062297-webhooks.md): API callbacks via webhook reporters
+- [Visual Studio Online](https://docs.usetrace.com/en/articles/1278604-visual-studio-online.md): Trigger Usetrace testing for new code commits in Visual Studio Online
+- [Continuous integration with Codeship](https://docs.usetrace.com/en/articles/1278598-continuous-integration-with-codeship.md): Run tests from Codeship once it triggers
+- [Continuous integration with CircleCI](https://docs.usetrace.com/en/articles/1278603-continuous-integration-with-circleci.md): Run tests from CircleCI
+- [Continuous integration with Bamboo](https://docs.usetrace.com/en/articles/1278596-continuous-integration-with-bamboo.md): Trigger tests straight from Bamboo
+- [API documentation](https://docs.usetrace.com/en/articles/1278611-api-documentation.md): Usetrace API can be used to trigger tests and get results and status updates
+- [Continuous integration with Github Actions](https://docs.usetrace.com/en/articles/9615436-continuous-integration-with-github-actions.md)
+- [Continuous integration with GitLab CI/CD](https://docs.usetrace.com/en/articles/9861788-continuous-integration-with-gitlab-ci-cd.md)
+- [Continuous integration with AWS CodePipeline](https://docs.usetrace.com/en/articles/9910388-continuous-integration-with-aws-codepipeline.md)
+- [Continuous integration with Azure Pipelines](https://docs.usetrace.com/en/articles/9927588-continuous-integration-with-azure-pipelines.md)
+- [Bitbucket Integration Pipe](https://docs.usetrace.com/en/articles/12165623-bitbucket-integration-pipe.md): A Bitbucket Pipe to trigger UseTrace traces or projects via the Universal Integration.
+
+## Organizations
+
+- [Introduction to organizations and set up](https://docs.usetrace.com/en/articles/5665426-introduction-to-organizations-and-set-up.md): Organization basics and how to create a new organization
+- [Organization Management](https://docs.usetrace.com/en/articles/5668208-organization-management.md): Viewing organizational details, editing users and projects
+- [Migration of projects](https://docs.usetrace.com/en/articles/5668302-migration-of-projects.md): Transferring projects from private to organizational accounts
+- [Dashboard UI](https://docs.usetrace.com/en/articles/8493046-dashboard-ui.md)
+
+## Subscription
+
+- [Subscription](https://docs.usetrace.com/en/articles/6440942-subscription.md): Subscription process explained
+
+## Export
+
+- [Export traces to Selenium scripts \(Beta\)](https://docs.usetrace.com/en/articles/15646958-export-traces-to-selenium-scripts-beta.md): \# Exporting Traces to Selenium \(Beta\)
+- [Export traces as JSON](https://docs.usetrace.com/en/articles/15654851-export-traces-as-json.md)

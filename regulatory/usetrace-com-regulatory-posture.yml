@@ -1,0 +1,50 @@
+generated: '2026-10-25'
+method: probed
+source: https://usetrace.com/privacy-policy/
+signals:
+  data_subject_request:
+    - evidence:
+        - source: https://usetrace.com/privacy-policy/
+          http_status: 200
+          fetched: regulatory/usetrace-com-privacy.html
+          quote: "To have all your data that we store sent to you, send us a request by email to contact@usetrace.com. We will respond with a link to download your data within two weeks."
+      section: MANAGING YOUR PERSONAL DATA
+      note: Provides a data access request mechanism.
+    - evidence:
+        - source: https://usetrace.com/privacy-policy/
+          http_status: 200
+          fetched: regulatory/usetrace-com-privacy.html
+          quote: "Deleting your account is a permanent action that can delete all personal data related to your account. To delete your account, you must be logged in to Usetrace, be the administrator of your account, and request an account deletion via the integrated support chat."
+      section: MANAGING YOUR PERSONAL DATA
+      note: Describes data deletion request process.
+    - evidence:
+        - source: https://usetrace.com/privacy-policy/
+          http_status: 200
+          fetched: regulatory/usetrace-com-privacy.html
+          quote: "We will store your personal data no longer than 30 days after you delete your account."
+      section: MANAGING YOUR PERSONAL DATA
+      note: States data retention period after deletion.
+  data_retention:
+    - evidence:
+        - source: https://usetrace.com/privacy-policy/
+          http_status: 200
+          fetched: regulatory/usetrace-com-privacy.html
+          quote: "We will store your personal data no longer than 30 days after you delete your account."
+      section: MANAGING YOUR PERSONAL DATA
+      note: Retention limit post‑deletion.
+  subprocessors:
+    - evidence:
+        - source: https://usetrace.com/privacy-policy/
+          http_status: 200
+          fetched: regulatory/usetrace-com-privacy.html
+          quote: "We do share some data with service providers for processing payments, providing customer support, sending emails, storing data and hosting our main and backup services. All third parties we share personal data with are compliant with GDPR (General Data Protection Regulation)."
+      section: MANAGING YOUR PERSONAL DATA
+      note: Lists use of subprocessors and GDPR compliance.
+  incident_notification:
+    - evidence:
+        - source: https://usetrace.com/privacy-policy/
+          http_status: 200
+          fetched: regulatory/usetrace-com-privacy.html
+          quote: "We may release your information when we believe it is appropriate to comply with the law, enforce our site policies, or protect our or others’ rights, property or safety."
+      section: MANAGING YOUR PERSONAL DATA
+      note: Indicates possible breach notification obligations.

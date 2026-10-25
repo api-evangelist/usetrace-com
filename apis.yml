@@ -1,25 +1,75 @@
 aid: usetrace-com
+
 name: Shoppr
-description: 'Shoppr is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by 500-global) and added to the network as a stub for full-pipeline profiling.'
+
+image: http://usetrace.com/wp-content/uploads/2025/04/brand1.png
+
+description: 'Usetrace provides a platform for automated end‑to‑end testing, functional, performance and QA automation. It enables teams to create automated E2E tests in minutes, achieve high test coverage quickly, and ship reliable code without manual regression testing. Trusted by innovative companies, it promises fewer bugs, faster releases, and a no‑flaky‑test guarantee.'
+
 url: https://raw.githubusercontent.com/api-evangelist/usetrace-com/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-25 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-25'
+
 modified: '2026-10-25'
+
 tags:
 - Company
-apis: []
+- QA
+- Testing
+- Automation
+- CI/CD
+- SaaS
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- 500-global
+
 common:
+- type: LLMsTxt
+  url: llms/usetrace-com-llms.txt
+- type: SecurityTxt
+  url: well-known/usetrace-com-docs-security.txt
+- type: WellKnown
+  url: well-known/usetrace-com-well-known.yml
+- type: Hosts
+  url: hosts/usetrace-com-hosts.yml
+- type: Vendors
+  url: vendors/usetrace-com-vendors.yml
+- type: StatusPage
+  url: https://status.usetrace.com/
+- type: GitHubOrganization
+  url: https://github.com/Usetrace
+- type: DomainSecurity
+  url: security/usetrace-com-domain-security.yml
 - type: Website
   url: https://usetrace.com
+- type: Documentation
+  url: https://docs.usetrace.com/en/
+- type: GettingStarted
+  url: https://usetrace.com/why-usetrace/
+- type: TermsOfService
+  url: https://usetrace.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://usetrace.com/privacy-policy/
+
+apis: []
+
+x-backed-by:
+- 500-global
+x-enrichment:
+  date: '2026-10-25'
+  status: enriched
+  artifacts_added: 11
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
