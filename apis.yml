@@ -1,0 +1,25 @@
+aid: usetrace-com
+name: Shoppr
+description: 'Shoppr is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
+  backed by 500-global) and added to the network as a stub for full-pipeline profiling.'
+url: https://raw.githubusercontent.com/api-evangelist/usetrace-com/refs/heads/main/apis.yml
+x-type: company
+x-source: harvest:vc-portfolio
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-10-25'
+modified: '2026-10-25'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+x-backed-by:
+- 500-global
+common:
+- type: Website
+  url: https://usetrace.com
